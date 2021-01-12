@@ -1,7 +1,14 @@
 .container {
-  width: 50%;
   margin-bottom: 0.2em;
   cursor: pointer;
+}
+
+.list {
+  width: 100%;
+}
+
+.grid {
+  width: 50%;
 }
 
 .video {
