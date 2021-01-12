@@ -1,0 +1,29 @@
+.container {
+  width: 50%;
+  margin-bottom: 0.2em;
+  cursor: pointer;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+}
+
+.metadata {
+  margin-left: 2em;
+}
+
+.title,
+.channel {
+  margin: 0;
+}
+
+.img {
+  width: 40%;
+  height: 100%;
+}
+
+.channel {
+  font-size: 0.9em;
+}
