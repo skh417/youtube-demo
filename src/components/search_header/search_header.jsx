@@ -6,9 +6,9 @@ const SearchHeader = ({ onSearch }) => {
 
   const handleSearch = () => {
     const value = inputRef.current.value;
-    console.log("search!!!!", value);
     onSearch(value);
   };
+
   const onKeyPress = (e) => {
     if (e.key === "Enter") {
       console.log(e.key);
