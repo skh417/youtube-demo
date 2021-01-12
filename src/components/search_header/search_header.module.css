@@ -1,0 +1,23 @@
+.header {
+  background-color: black;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  flex-basis: 90%;
+  padding: 0.5em;
+  border: none;
+  outline: none;
+}
+
+.button {
+  padding: 0.5em;
+  border: 1px solid red;
+  border-radius: 2px;
+  outline: none;
+  margin-left: 1em;
+  cursor: pointer;
+}
